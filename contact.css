@@ -1,0 +1,22 @@
+
+
+
+.nav{
+    background-color: rgba(92, 78, 78, 0.658);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    display: flex;
+    
+}
+nav a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: white;
+    line-height: 22px;
+    font-weight: 700;
+    font-size: 18px;
+}
