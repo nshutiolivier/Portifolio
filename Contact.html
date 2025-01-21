@@ -1,55 +1,169 @@
-<html>
-    <head>
-        <title>Contact</title>
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-   <p></p>
-    </body>
-        <h1> Contact</h1>
-        <div class="Ad">
-            <p>
-                <address>
-                    KN 400 Nyarugenge,Kigali,Rwanda
-                </address>
-                <a href="maito:nshutiolivier29@gmail.com">nshutiolivier29@gmail.com</a><br>
-                <a href="tel:+250784580525">+250784580525</a>
-            </p>
-          </div>
-          <footer>
-            <div class="container">
-              <div class="A">
-                  <h1>Contact us Form</h1>
-                  <div class="inputs">
-                      <div class="input">
-                          <input type="text" name="First name" value="" placeholder="First Name">
-                      </div>
-                      <div class="input">
-                          <input type="text" name="Last name"  value="" placeholder="Last Name">
-              
-                      </div>
-                  </div>
-                  <div class="second">
-                      <div class="input">
-                          <input type="email" name="Email Address"  value="" placeholder="Email Address">
-              
-                      </div>
-                      <div class="input">
-                          <input type="text" name="Website Name"  value="" placeholder="Website Name">
-                      </div>
-                  </div>
-                  <div class="B">
-                  <input type="text" name="Write your message" value="" placeholder="Write Your Message">
-              </div>
-              </div>
-              <div class="c">
-                  <button type="submit">Submit</button>
-              </div>
-          </div>   
-            <div>
-              <label> Designed by Hirwa Nshuti Olivier &copy; 2023</label>
-            </div>   
-      </footer> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f9;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-top: 20px;
+        }
+        .Ad {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 600px;
+            background: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .Ad address {
+            font-style: normal;
+            margin-bottom: 10px;
+        }
+
+        .Ad a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .Ad a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background: #acb7c1;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer label {
+            font-size: 14px;
+        }
+        .container {
+            margin: 20px auto;
+            max-width: 800px;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .container h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #2c3e50;
+            text-align: center;
+        }
+
+        .inputs, .second {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 15px;
+        }
+
+        .input {
+            flex: 1;
+        }
+
+        .input input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        .B input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+
+        .c button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .c button:hover {
+            background: #2980b9;
+        }
+        @media (max-width: 768px) {
+            .inputs, .second {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Contact</h1>
+    <div class="Ad">
+        <p>
+            <address>
+                KN 400 Nyarugenge, Kigali, Rwanda
+            </address>
+            <a href="mailto:nshutiolivier29@gmail.com">nshutiolivier29@gmail.com</a><br>
+            <a href="tel:+250784580525">+250784580525</a>
+        </p>
+    </div>
+    <footer>
+        <div class="container">
+            <h1>Contact Us Form</h1>
+            <div class="inputs">
+                <div class="input">
+                    <input type="text" name="First name" placeholder="First Name">
+                </div>
+                <div class="input">
+                    <input type="text" name="Last name" placeholder="Last Name">
+                </div>
+            </div>
+            <div class="second">
+                <div class="input">
+                    <input type="email" name="Email Address" placeholder="Email Address">
+                </div>
+                <div class="input">
+                    <input type="text" name="Website Name" placeholder="Website Name">
+                </div>
+            </div>
+            <div class="B">
+                <input type="text" name="Write your message" placeholder="Write Your Message">
+            </div>
+            <div class="c">
+                <button type="submit">Submit</button>
+            </div>
+        </div>
+        <div>
+            <label>Designed by Hirwa Nshuti Olivier &copy; 2023</label>
+        </div>
+    </footer>
+</body>
+</html>
+
     </div>
       </div>
 </body>
