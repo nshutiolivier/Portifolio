@@ -43,16 +43,6 @@ body {
   .theme-toggle button:hover {
     transform: scale(1.2);
   }
-
- /* body.light-mode .about-section {
-    background-color: #333;
-    color: #fff;
-  }
-  
-  body.dark-mode .about-section {
-    background-color: #222;
-    color: #fff; */
-
   
   a {
     text-decoration: none;
@@ -87,11 +77,20 @@ body {
   }
   
   .header a.logo {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
-    color: #00c4cc;
+    color: #3f778e;
+
+
   }
   
+  span{
+    color: green;
+      font-family:'Times New Roman', Times, serif;
+      font-size: 3rem;
+      font-weight: bold;
+  }
+
   .navbar {
     display: flex;
     gap: 15px;
@@ -110,7 +109,7 @@ body {
   }
   
   .navbar a:hover {
-    background: #00c4cc;
+    background: #02b4ba;
     color: white;
   }
   
@@ -206,6 +205,9 @@ body {
   .about-section {
     background: hsla(200, 43%, 99%, 0.788);
     padding: 80px 0;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 0.3rem;
 }
 
 .about-content {
@@ -383,13 +385,13 @@ body {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    max-width: 800px;
-    margin: 50px auto;
+    max-width: 850px;
+    margin: 5px auto;
   }
   #skills img {
-    width: 600px;
-    height: 550px;
-    border-radius: 1rem;
+    width: 100%;
+    height: 900px;
+    border-radius: 0.2rem;
       }  
       .skills_section {
         flex: 1;
@@ -454,6 +456,16 @@ body {
       .bar .js {
         width: 90%;
         background-color: #f7df1e;
+      }
+
+      .bar .django {
+        width: 80%;
+        background-color: #4bad7b;
+      }
+
+      .bar .c {
+        width: 70%;
+        background-color: #e36dbe;
       }
 
 

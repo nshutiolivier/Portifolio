@@ -90,7 +90,7 @@
 
   <section id="service">
     <div class="service-image">
-      <img src="./pcs/PXL_20231012_134854972.NIGHT~3.jpg" alt="Design Image" />
+      <!-- <img src="./pcs/PXL_20231012_134854972.NIGHT~3.jpg" alt="Design Image" /> -->
     </div>
     <h1>Our Services</h1>
     <div class="services">
@@ -185,6 +185,24 @@
             <p>90%</p>
           </div>
           <div class="bar"><span class="js"></span></div>
+
+
+          <div class="skill_bar">
+            <div class="info">
+              <p>Django</p>
+              <p>80%</p>
+            </div>
+            <div class="bar"><span class="django"></span></div>
+
+
+            <div class="skill_bar">
+              <div class="info">
+                <p>C#</p>
+                <p>70%</p>
+              </div>
+              <div class="bar"><span class="c"></span></div>
+
+
         </div>
       </div>
     </div>
@@ -193,7 +211,7 @@
 
 
     <div class="contact-image">
-      <img src="./pcs/PXL_20231012_134854972.NIGHT~4.jpg" alt="Design Image" />
+      <!-- <img src="./pcs/PXL_20231012_134854972.NIGHT~4.jpg" alt="Design Image" /> -->
     </div>
     <section id="contact">
     <h1>Contact</h1>
@@ -202,13 +220,13 @@
       <a href="mailto:nshutiolivier29@gmail.com">nshutiolivier29@gmail.com</a><br />
       <a href="tel:+250784580525">+250784580525</a>
     </p>
-    <form>
+    <form id="contactForm" method="POST" action="send_email.php">
       <div class="input-group">
-        <input type="text" name="first_name" placeholder="First Name" />
-        <input type="text" name="last_name" placeholder="Last Name" />
+        <input type="text" name="user_name" class="contact_input" id="name" placeholder="First Name" required>
+        <input type="text" name="user_name" class="contact_input" id="name" placeholder="Last Name" required>
       </div>
-      <input type="email" name="email" placeholder="Email Address" />
-      <textarea name="message" placeholder="Write Your Message"></textarea>
+      <input type="email" name="user_email" class="contact_input" id="email" placeholder="Email Address" required>
+      <textarea id="contactMessage" class="contact_input" name="message" placeholder="Write Your Message"></textarea>
       <button type="submit">Submit</button>
     </form>
   </section>
@@ -228,5 +246,9 @@
   <script src="https://unpkg.com/scrollreveal"></script>
   <script src="js/script.js"></script>
   <script src="./Portifolio.js"></script>
+  <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
 </body>
 </html>
